@@ -3,6 +3,8 @@
 * {
     margin: 0px;
     padding: 0px;
+    min-height: 10%;
+
 }
 @font-face {
     font-family: 'new-letter' ;
@@ -78,8 +80,7 @@ section > P.imag1 {
     background-position: center right;
     background-attachment: fixed;
     background-size: cover;
-    max-width: 280px;
-    min-width: 1400px;
+  
     
     
     
@@ -89,9 +90,11 @@ section > P.imag2 {
     background-image: url('pacote-d012/imagens/background002.jpg');
     background-position: bottom right;
     background-attachment: fixed;
-    background-size: auto;
-    max-width: 280px;
-    min-width: 1400px;
+    background-size: cover;
+
+    
+    
+    
     
     
 }
