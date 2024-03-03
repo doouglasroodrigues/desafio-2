@@ -78,6 +78,8 @@ section > P.imag1 {
     background-position: center right;
     background-attachment: fixed;
     background-size: cover;
+    max-width: 280px;
+    min-width: 1400px;
     
     
     
@@ -88,6 +90,9 @@ section > P.imag2 {
     background-position: bottom right;
     background-attachment: fixed;
     background-size: auto;
+    max-width: 280px;
+    min-width: 1400px;
+    
     
 }
 
