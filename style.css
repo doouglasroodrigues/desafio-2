@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: 'new-letter' ;
+    src: url('fonte/PassionOne-Bold.ttf') format('truetype');
+
+}
+@font-face {
+    font-family: 'letter-sec';
+    src: url(fonte/Sriracha-Regular.ttf) format(truetype);
+}
+
+html body {
+    min-height: 100%;
+}
+
+header {   
+    background-color: black;
+    padding-bottom: 4%;
+    color: white;
+    text-align: center;
+    }
+
+header > h1 {
+    padding-top: 50px;
+    font-family: 'new-letter';
+    font-size: 125px;
+    font-variant: small-caps;
+    
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(189, 187, 187);
+   
+}
+header strong {
+    font-weight: bold;
+    font-size: 20px;
+    
+}   
+strong:hover {
+    text-decoration: underline;
+}
+
+section {
+    
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    line-height: 2em;
+    font-family: 'letter-sec', Helvetica, sans-serif; 
+    font-size: 2em;
+}
+
+section #normal {
+    padding-left: 10vh;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    
+}
+
+section #foto {
+    padding-left: 10vh;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    color: rgb(236, 224, 224);
+    box-shadow:inset 0px 0px 22px 5px black;
+    background-attachment: fixed;
+}
+
+section > P.imag1 {
+    background-image: url('pacote-d012/imagens/background001.jpg');
+    background-position: center right;
+}
+
+section > P.imag2 {
+    background-image: url('pacote-d012/imagens/background002.jpg');
+    background-position: bottom right;
+    
+}
+
+footer > p {
+    
+    padding: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
