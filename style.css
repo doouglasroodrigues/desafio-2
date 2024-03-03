@@ -60,6 +60,7 @@ section {
 }
 
 section #normal {
+    padding-right: 10vh;
     padding-left: 10vh;
     background-color: white;
     color: rgb(0, 0, 0);
@@ -67,6 +68,7 @@ section #normal {
 }
 
 section #foto {
+    padding-right: 10vh;
     padding-left: 10vh;
     padding-bottom: 10vh;
     padding-top: 10vh;
