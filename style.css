@@ -75,13 +75,16 @@ section.normal {
 
 
 section.image1 {
-    
-    background-image: url('pacote-d012/imagens/background001.jpg');
+    box-shadow:inset 0px 0px 15px 3px;
+    background-attachment: fixed; 
+    background-image: url('pacote-d012/imagens/background002.jpg');
     background-position: center right;
 }
 
 section.image2 {
-    background-image: url('pacote-d012/imagens/background002.jpg');
+    box-shadow:inset 0px 0px 15px 3px;
+    background-attachment: fixed;
+    background-image: url('pacote-d012/imagens/background001.jpg');
     background-position: bottom right;
     
 }
