@@ -54,6 +54,7 @@ section {
     padding-top: 10vh;
     line-height: 2em;
     font-family: 'letter-sec', Helvetica, sans-serif; 
+    background-size: cover;
     font-size: 3.5vw;
 }
 
