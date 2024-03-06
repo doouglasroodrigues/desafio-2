@@ -71,21 +71,25 @@ section.normal {
     
 }
 
-section.foto {
-    color: rgb(236, 224, 224);
-    box-shadow:inset 0px 0px 22px 5px black;
-    background-attachment: fixed;
-}
 
-section#image1 {
+
+section.image1 {
+    
     background-image: url('pacote-d012/imagens/background001.jpg');
     background-position: center right;
 }
 
-section#image2 {
+section.image2 {
     background-image: url('pacote-d012/imagens/background002.jpg');
     background-position: bottom right;
     
+}
+section > p#foto {
+    background-color: rgba(0, 0, 0, 0.514);
+    color: rgb(236, 224, 224);
+    box-shadow:inset 0px 0px 22px 5px black;
+    background-attachment: fixed;
+    padding-right: 30px;
 }
 
 footer > p {
